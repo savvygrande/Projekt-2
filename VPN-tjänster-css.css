@@ -1,0 +1,193 @@
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*    Navigation        */
+.NavTop {
+    background-color: #F28D9F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 10px 1px rgba(0,0,0,0.01);
+    z-index: 1000;
+}
+
+.NavTop ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.NavTop ul li a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.NavTop ul li a:hover{
+    border-bottom: #fff solid;    
+
+}
+
+/*    Knapp css    */
+
+button {/*Tar bort originella styling*/
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.cta a {
+    background-color: #F21905;
+    text-decoration: none;
+    border: none;
+    border-radius: 49px;
+    box-shadow: 0 4px 15px rgba(242, 175, 92, 0.3);  
+    padding: 18px 32px;
+    margin: 20px 0 0;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Playfair Display";
+    color: #f7f7f7;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.cta a:hover {
+    transform: translateY(-4px);
+}
+
+
+/*       Grå section styling       */
+
+.zigzag{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 60px 40px;
+    max-width: 100%;
+    margin: auto;
+}
+.grey-section-container {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin:0px;
+}
+h2{
+    color: #F2AF5C;
+    font-size: 48px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    gap: 20px;
+    margin-bottom: 50px;
+    line-height: 1;
+}
+/*       Faeture rutorna styling      */
+
+.Feature{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 10px 40px;
+    gap: 40px;
+    align-items:center;
+}
+
+.Features p {
+    margin-bottom: 25px;
+    color: #666;
+}
+.text{
+    text-align: center;
+}
+
+/*    Bild styling och hover       */
+.ikon {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.ikon img {
+    max-width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+
+.ikon img:hover{
+    transform: scale(1.1);
+}
+
+/*     Footer styling     */
+
+h3{
+    color: #7999D9;
+    font-size: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer {
+    background-color: #333;
+    margin-top:30px;
+    color: white;
+    padding: 60px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+
+}
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+/*    Responsive styling för surfplattor     */
+@media (max-width: 768px) {
+    .Feature {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .Feature .ikon {
+        order: -1; 
+        margin-bottom: 30px;
+    }
+    
+    .Feature .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*    Responsive styling för mobiler     */
+
+@media (max-width: 480px) {
+    h2, h3 {
+        font-size: 40px;
+    }
+    
+    .NavTop ul {
+        font-size: 16px;
+        gap: 10px;
+    }
+}
+

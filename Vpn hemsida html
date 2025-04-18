@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="VPN-hemsida-css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@300;600&display=swap" rel="stylesheet">
+    <title>VPN SIDA</title>
+</head>
+<body>
+
+    <!-- Navigering -->
+    <nav class="NavTop" aria-label="Huvudnavigering"role="banner">
+             <ul>
+            <li>
+                <a href="VPN tjänster.html">Tjänster</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+       <!-- Hero section -->
+        <section class="Hero">
+            <h1>Surfa<div class="Color">säkert</div> och <div class="Color">fritt</div> var du än är</h1>
+            <p>Skydda din integritet online med ett klick. Få tillgång till globalt innehåll, anonymisera din trafik och säkra din uppkoppling med vår pålitliga VPN.</p>         
+            <button class="cta" aria-label="Börja använda VPN-tjänsten">
+               <a href="VPN priser.html">Börja idag</a>
+            </button>
+            <div class="shape"></div>
+        </section>
+    </header>
+
+    <!-- Main section -->
+    <main role="main">
+        <!-- Features section -->
+        <section class="white-section-container">
+            <h2>Features</h2>
+            <section class="notitle">
+
+                        <!-- Features ruta -->
+                <div class="Features-box">
+                    <div class="ikon">
+                        <img src="3.jpg" alt="Illustrering av en säker dator"loading="lazy">
+                    </div>
+                    <h3>Kryptering av data</h3>
+                    <p>Skydda din data med avancerad AES-256-kryptering – samma säkerhetsnivå som används av banker och militären. </p>
+                    <button class="cta">
+                        <a href="VPN priser.html">Börja idag</a>
+                    </button>
+                </div>
+                
+                <!-- Features ruta -->
+                <div class="Features-box">                    
+                    <div class="ikon">
+                        <img src="game1.jpg" alt="Illustrering av en gamer"loading="lazy">
+                    </div>
+                    <h3>Supersnabba VPN-servrar</h3>
+                    <p>Streama, spela och ladda ner utan avbrott med våra optimerade servrar för hög prestanda.</p>
+                    <button class="cta">
+                        <a href="VPN priser.html">Börja idag</a>
+                    </button>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- Kundåsikter row -->
+        <section class="colorrow">
+            <h3>Vad våra kunder tycker</h3>
+            <section class="rows">
+
+                <!-- Kundåsikt ruta -->
+                <div class="kundåsikt">
+                    <div class="stars"aria-label="5 av 5 stjärnor">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>"Funkar smidigt och gränssnittet är snyggt."</p>
+                    <br>-Karin W., Uppsala
+                </div>
+
+                <!-- Kundåsikt ruta -->
+                <div class="kundåsikt">
+                    <div class="stars" aria-label="5 av 5 stjärnor">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>"Perfekt när jag reser mycket. Jag kan kolla på svenska serier var jag än är utan problem."</p>
+                    <br>Jonas P.,digital nomad
+                </div>
+
+            <!-- Kundåsikt ruta -->
+                <div class="kundåsikt">
+                    <div class="stars"aria-label="4 av 5 stjärnor">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p>Älskar att de inte sparar några loggar. Känns verkligen säkert att surfa nu</p>
+                    <br>Ali R., Stockholm
+                </div>  
+            </section>
+        </section>
+    </main>
+    <!-- Sidfot med sociala medier -->
+    <footer>
+        <div class="footer left">
+            <h3>Hitta oss på sociala medier</h3>
+            <nav class="social-links"aria-label="Sociala medier">
+                <a href="https://www.instagram.com/"><img width="48" height="48" 
+                    src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram länk" loading="lazy"></a>
+                <a href="https://sv-se.facebook.com/"><img width="48" height="48" loading="lazy"
+                    src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook länk"></a>
+                <a href="https://twitter.com/"><img width="50" height="50" loading="lazy"
+                     src="https://img.icons8.com/ios/50/twitterx--v1.png" alt="Twitter/X länk"/></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
